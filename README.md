@@ -79,6 +79,11 @@ System.out.appendHTML().html {
 
 See [wiki](https://github.com/kotlin/kotlinx.html/wiki) pages
 
+For an executable tour of the TagConsumer event pipeline (tag creation, attribute
+delegates, text/entity/unsafe propagation, finalize, and consumer wrappers across
+the stream, DOM and recording backends), see
+[docs/consumer-events-tour.md](docs/consumer-events-tour.md).
+
 # Building
 
 See the [development](https://github.com/kotlin/kotlinx.html/wiki/Development) page for details.

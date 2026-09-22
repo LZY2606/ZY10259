@@ -79,6 +79,10 @@ System.out.appendHTML().html {
 
 See [wiki](https://github.com/kotlin/kotlinx.html/wiki) pages
 
+For an executable tour of how DSL calls become `TagConsumer` events and how the
+stream, DOM and consumer-wrapper layers propagate them, see
+[docs/tag-consumer-tour.md](docs/tag-consumer-tour.md).
+
 # Building
 
 See the [development](https://github.com/kotlin/kotlinx.html/wiki/Development) page for details.
